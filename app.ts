@@ -1,7 +1,7 @@
 import { CompanyAccount } from './class/CompanyAccount'
 import { DioAccount } from './class/DioAccount'
 import { PeopleAccount } from './class/PeopleAccount'
-
+import { EmployeeAccount } from './class/EmployeeAccount'
 /*
 const peopleAccount: PeopleAccount = new PeopleAccount(1, 'Nath', 10)
 peopleAccount.deposit_(100)

@@ -1,7 +1,7 @@
 export abstract class DioAccount {
   private name: string
   private readonly accountNumber: number
-  balance: number = 0
+  private balance: number = 0
   private status: boolean = true
 
   constructor(name: string, accountNumber: number){
@@ -45,7 +45,7 @@ export abstract class DioAccount {
 
   
 
-  private validateStatus = (): boolean => {
+  public validateStatus = (): boolean => {
     if (this.status) {
       return this.status
     }

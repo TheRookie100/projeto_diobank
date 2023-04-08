@@ -12,6 +12,8 @@ companyAccount.deposit_(3600)
 console.log(companyAccount)
 */
 
+
+/*
 //                                                id   nome   n▫ conta
 const account1: PeopleAccount = new PeopleAccount(1 , "Joe", 1000)
 console.log(account1) //  toda informacao da conta com seus atributos e metodos
@@ -24,5 +26,13 @@ const account2: PeopleAccount = new PeopleAccount(23 , "Luccas" , 639)
 console.log(account2) //  toda informacao da conta com seus atributos e metodos
 account2.deposit_(40000) // valor depositado
 account2.withdraw_(2500) // valor sacado
-console.log(account2.balance) // saldo atual
+console.log(account2.balance) // saldo atual*/
 
+const CompanyAccount100: CompanyAccount = new CompanyAccount("Alex" , 1)
+console.log(CompanyAccount100)
+CompanyAccount100.deposit_(70000)
+CompanyAccount100.withdraw_(3600)
+CompanyAccount100.getLoan(100000)
+
+/*console.log(CompanyAccount100.getLoan(25000))*/
+/*peopleAccount.setName("Guilherme Rezende")*/

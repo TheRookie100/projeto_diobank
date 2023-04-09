@@ -3,12 +3,12 @@ export abstract class DioAccount {
   private readonly accountNumber: number
   private balance: number = 0
   private status: boolean = true
-
+  
   constructor(name: string, accountNumber: number){
     this.name = name
     this.accountNumber = accountNumber
   }
-
+   
   /*
   setName = (name: string): void => {
     this.name = name
@@ -53,4 +53,6 @@ export abstract class DioAccount {
 
     throw new Error('Conta inválida')
   }
+
+  
 }

@@ -16,7 +16,7 @@ desenvolvido por [Nathally Souza](https://github.com/nathyts)
 
 3 - Execute o projeto
 
-    npm run dev | yarn run dev
+    npm run dev | yarn run dev |
 
 #### Desafios
 [x] Implementar os métodos de depósito (deposit) e saque (withdraw) na classe DioAccount
